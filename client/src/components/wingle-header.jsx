@@ -9,7 +9,7 @@ export default function WingleHeader() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold text-white italic" data-testid="text-wingle-logo">
-            wingle
+            winqle
           </div>
           
           {/* Search Bar */}

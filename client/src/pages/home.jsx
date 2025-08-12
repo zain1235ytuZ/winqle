@@ -7,6 +7,7 @@ import MainContent from "@/components/main-content";
 import ProductGallery from "@/components/product-gallery";
 import Footer from "@/components/footer";
 
+
 export default function Home() {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -15,6 +16,7 @@ export default function Home() {
       <CompanyProfile />
       <Navigation />
       <PromotionalBanner />
+     
       <MainContent />
       <ProductGallery />
       <Footer />

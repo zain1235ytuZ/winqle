@@ -107,10 +107,12 @@ export default function MainContent() {
                   </ul>
                 </div>
               </div>
-            </CardContent>
+          </CardContent>
           </Card>
+        </div>
 
-          {/* Seller Comparison Section */}
+        {/* Right Column - Seller Comparison Section and Quote Request Form */}
+        <div className="lg:col-span-1 space-y-8">
           <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-lg p-6 mt-8">
             <h3 className="text-xl font-bold text-white mb-4" data-testid="text-seller-comparison-title">See How Other Sellers Stand Out</h3>
             <p className="text-purple-100 mb-6">These Sellers Have Completed Their Profiles Last Week—Get Inspired And Complete Yours Today.</p>
@@ -147,10 +149,7 @@ export default function MainContent() {
               ))}
             </div>
           </div>
-        </div>
 
-        {/* Right Column - Quote Request Form */}
-        <div className="lg:col-span-1">
           <Card className="shadow-lg sticky top-24">
             <CardContent className="p-6">
               <h3 className="text-lg font-bold text-gray-900 mb-4" data-testid="text-quote-form-title">Get the Best Price from</h3>
