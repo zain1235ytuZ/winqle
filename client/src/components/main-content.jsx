@@ -65,7 +65,7 @@ export default function MainContent() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left Column - Company Description */}
         <div className="lg:col-span-2">
-          <Card className="shadow-lg">
+          <Card className="shadow-lg border-0">
             <CardContent className="p-6">
               <h3 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-company-description-title">Company Description</h3>
               <div className="prose text-gray-700 leading-relaxed space-y-4">

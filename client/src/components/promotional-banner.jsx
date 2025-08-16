@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 
 export default function PromotionalBanner() {
   return (
-    <div className="bg-gradient-to-r from-blue-400 to-blue-100 py-12 my-8">
+    <div className="bg-gradient-to-r from-blue-400 to-blue-100 py-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex gap-4 w-full md:w-1/2">

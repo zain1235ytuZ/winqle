@@ -6,7 +6,7 @@ export default function TopHeader() {
       <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center text-sm text-gray-600">
         <div className="flex items-center space-x-6">
           <div className="flex items-center space-x-2" data-testid="categories-dropdown">
-            <Menu className="h-4 w-4 text-gray-500" />
+            <Menu className="ml-6 h-4 w-4 text-gray-500" />
             <span>All Categories</span>
             <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12">
               <path d="M10.293 3.293L6 7.586 1.707 3.293A1 1 0 00.293 4.707l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z"/>

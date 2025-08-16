@@ -8,7 +8,7 @@ export default function WingleHeader() {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold text-white italic" data-testid="text-wingle-logo">
+          <div className="ml-6 text-2xl font-bold text-white italic" data-testid="text-wingle-logo">
             winqle
           </div>
           
@@ -30,15 +30,17 @@ export default function WingleHeader() {
             </div>
           </div>
           
-          {/* Right Menu */}
+         
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-white" data-testid="link-simo-quotes">
+              <div className="border-3 border-purple from-purple-600 to-purple-700 shadow-lg rounded-full flex items-center   justify-center">
               <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                 <span className="text-purple-600 text-xs font-bold">S</span>
               </div>
-              <div className="text-sm">
+              <div className="text-sm  cursor-pointer text-white">
                 <div className="font-semibold">SIMO</div>
                 <div className="text-xs">Get Quotes</div>
+              </div>
               </div>
             </div>
             

@@ -48,13 +48,13 @@ export default function CompanyProfile() {
   return (
     <div className="bg-gradient-to-r from-purple-100 to-purple-200 py-8">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-2xl shadow-lg p-8">
+        <div className="p-8">
           <div className="flex justify-between items-start">
             <div className="flex items-start space-x-6">
-              {/* Company logo with swirl design */}
+            
               <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-teal-500 rounded-full flex items-center justify-center" data-testid="company-logo">
-                <div className="w-16 h-16 border-4 border-white rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-white rounded-full relative">
+                <div className="w-16 h-16 border-4  rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8  rounded-full relative">
                     <div className="absolute inset-1 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full"></div>
                   </div>
                 </div>

@@ -7,8 +7,8 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           <nav className="flex space-x-8">
-            <a href="#" className="text-white hover:text-purple-200 font-medium transition-colors duration-200" data-testid="nav-home">Home</a>
-            <a href="#" className="text-white hover:text-purple-200 font-medium transition-colors duration-200" data-testid="nav-products">Products</a>
+            <a href="#" className="text-white ml-8 hover:text-purple-200 font-medium transition-colors duration-200" data-testid=" nav-home">Home</a>
+            <a href="#" className="text-white hover:text-purple-200 font-medium transition-colors duration-200" data-testid=" ml-6nav-products">Products</a>
             <a href="#" className="text-white hover:text-purple-200 font-medium transition-colors duration-200" data-testid="nav-contact">Contact</a>
             <a href="#" className="text-white hover:text-purple-200 font-medium transition-colors duration-200" data-testid="nav-reviews">Reviews</a>
           </nav>

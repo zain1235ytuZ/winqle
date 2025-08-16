@@ -50,7 +50,7 @@ export default function ProductGallery() {
           {row.map((product) => (
             <Card 
               key={product.id} 
-              className="shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-200"
+              className="shadow-none bg-gray-50 hover:bg-gray-100 transition-colors duration-200"
               data-testid={`card-product-${product.id}`}
             >
               <img 
